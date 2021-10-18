@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ElectroDomestico.cs" />
     <Compile Include="Estufa.cs" />
     <Compile Include="IApagar.cs" />
     <Compile Include="IEncender.cs" />

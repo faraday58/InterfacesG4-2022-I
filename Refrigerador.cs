@@ -2,7 +2,7 @@
 
 namespace InterfacesG4_2022_I
 {
-    class Refrigerador : IEncender,IApagar
+    class Refrigerador : ElectroDomestico,IEncender,IApagar
     {
         void IEncender.Encender()
         {
@@ -16,7 +16,8 @@ namespace InterfacesG4_2022_I
 
         public Refrigerador()
         {
-            Console.WriteLine(" Wirpool, te da la bienvenida para ocupar tu Refrigerador  ");
+            Marca = "Wirpool";
+            Console.WriteLine(" {0}, te da la bienvenida para ocupar tu Refrigerador  ",Marca );
         }
     }
 }
